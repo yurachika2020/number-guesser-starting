@@ -41,10 +41,10 @@ const compareGuesses = (humanGuess, computerGuess, secretTarget) => {
   }; 
 
 const updateScore = winnerScore => {
-    if (winnerScore = 'human') {
+    if (winnerScore === 'human') {
         humanScore += 1;
     }
-    else if (winnerScore = 'computer') {
+    else if (winnerScore === 'computer') {
         computerScore += 1;
     }
 };
